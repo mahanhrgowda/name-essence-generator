@@ -1,3 +1,5 @@
 streamlit==1.38.0
 pronouncing==0.2.0
-xai-grok-sdk==0.1.0
+xai-grok-sdk==0.0.12
+requests>=2.28.0
+pydantic>=2.0.0
