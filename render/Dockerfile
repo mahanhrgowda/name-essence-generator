@@ -3,7 +3,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 COPY render/requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r render/requirements.txt
 
 COPY . .
 
